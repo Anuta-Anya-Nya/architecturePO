@@ -23,10 +23,10 @@ public class Scene {
         }  
 
     }
-    public <Type> Type method1(Type something){
-        return something;
+    public <T> T method1(T flash){
+        return flash;
     }
-    public <Type> Type method2(Type something, Type anything){
-        return something;
+    public <T, E> T method2(T model, E flash){
+        return model;
     }
 }
